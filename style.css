@@ -1,0 +1,72 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@200&display=swap');
+* {
+    box-sizing: border-box;
+    font-family: Raleway;
+  }
+  body {
+    padding: 20px;
+    background: #396b4a;
+  }
+  .header {
+    padding: 30px;
+    font-size: 40px;
+    text-align: center;
+    background-image: url(images/background.jpg);
+    background-size: cover;
+    background-position-y: center;
+  }
+  .leftcolumn {   
+    float: left;
+    width: 75%;
+  }
+  .rightcolumn {
+    float: left;
+    width: 25%;
+    padding-left: 20px;
+  }
+  .card {
+     /**display: flex;**/
+     background-color: rgb(200, 212, 204);
+     padding: 20px;
+     margin-top: 20px;
+  }
+  .row:after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+  .images-big{
+      width: 600px;
+      height: 400px;
+  }
+  .images-small{
+      width: 140px;
+      height: 140px;
+      border-radius: 50%;
+  }
+  p{
+      font-size: 20px;
+  }
+  .footer {
+    padding: 20px;
+    text-align: center;
+    background: rgb(138, 165, 149);
+    margin-top: 20px;
+  }
+  .button{
+      border-radius: 1.3em;
+      border: rgb(187, 187, 221) solid 2px;
+      background-color: white;
+      width: 100px;
+      height: 30px;
+  }
+  .button:hover{
+      background-color: rgb(221, 217, 217);
+      cursor: pointer;
+  }
+  @media screen and (max-width: 800px) {
+    .leftcolumn, .rightcolumn {   
+      width: 100%;
+      padding: 0;
+    }
+  }
