@@ -39,11 +39,6 @@
     align-content: center;
     
   }
-  /**.row:after {
-    content: "";
-    display: table;
-    clear: both;
-  }**/
   .images-big{
       display: flex;
       width: 600px;
